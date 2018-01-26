@@ -1,0 +1,3 @@
+#include "HPbars.txt"
+ALIGN 4
+#include "Show All Weapon Ranks.event"

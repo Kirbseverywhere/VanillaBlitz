@@ -1,0 +1,72 @@
+#include "Tools/Tool Helpers.txt"
+
+//Playables
+
+MorpsMug: //Eirika
+#incext PortraitFormatter "Morps.png"
+setMugEntry(0x2, MorpsMug, 2, 6, 3, 4)
+
+CirclesMug: //Seth
+#incext PortraitFormatter "Circles.png"
+setMugEntry(0x4, CirclesMug, 3, 6, 3, 4)
+
+TrevorMug: //Franz
+#incext PortraitFormatter "Trevor.png"
+setMugEntry(0x6, TrevorMug, 2, 5, 2, 3)
+
+MangsMug: //Gilliam
+#incext PortraitFormatter "Mangs.png"
+setMugEntry(0x5, MangsMug, 4, 4, 4, 2)
+
+DudeMug: //Vanessa
+#incext PortraitFormatter "Dude.png"
+setMugEntry(0x8, DudeMug, 3, 5, 3, 3)
+
+SilqueMug: //Moulder
+#incext PortraitFormatter "Silque.png"
+setMugEntry(0x7, SilqueMug, 3, 6, 3, 4)
+
+DanielMug: //Ross
+#incext PortraitFormatter "Daniel.png"
+setMugEntry(0x9, DanielMug, 3, 6, 3, 4)
+
+MortonMug: //Garcia
+#incext PortraitFormatter "Morton.png"
+setMugEntry(0xE, MortonMug, 3, 5, 2, 3)
+
+ChantalMug: //Artur
+#incext PortraitFormatter "Chantal.png"
+setMugEntry(0xE, ChantalMug, 2, 6, 3, 4)
+
+AjaxMug: //Lute
+#incext PortraitFormatter "Ajax.png"
+setMugEntry(0xE, AjaxMug, 2, 5, 2, 3)
+
+AnnaMug: //Natasha
+#incext PortraitFormatter "Anna.png"
+setMugEntry(0xE, AnnaMug, 2, 6, 3, 4)
+
+RyderMug: //Joshua
+#incext PortraitFormatter "Ryder.png"
+setMugEntry(0xE, RyderMug, 3, 5, 3, 3)
+
+TiradoMug: //Fuck you nat //Neimi
+#incext PortraitFormatter "Tirado.png"
+setMugEntry(0xA, TiradoMug, 2, 5, 3, 3)
+
+KateMug: //Colm
+#incext PortraitFormatter "Kate.png"
+setMugEntry(0xC, KateMug, 3, 6, 3, 4)
+
+TyeMug: //Myrhh
+#incext PortraitFormatter "Tye.png"
+setMugEntry(0x26, TyeMug, 2, 5, 2, 3)
+
+GleirikaMug: //Knoll
+#incext PortraitFormatter "Gleirika.png"
+setMugEntry(0x29, GleirikaMug, 2, 6, 3, 4)
+
+//Bosses
+AaronMug: //Breguet
+#incext PortraitFormatter "Aaron.png"
+setMugEntry(0x31, AaronMug, 2, 4, 2, 2)
