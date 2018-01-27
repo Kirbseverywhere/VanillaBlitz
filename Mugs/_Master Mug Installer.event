@@ -36,19 +36,19 @@ setMugEntry(0xE, MortonMug, 3, 5, 2, 3)
 
 ChantalMug: //Artur
 #incext PortraitFormatter "Chantal.png"
-setMugEntry(0xE, ChantalMug, 2, 6, 3, 4)
+setMugEntry(0x1A, ChantalMug, 2, 6, 3, 4)
 
 AjaxMug: //Lute
 #incext PortraitFormatter "Ajax.png"
-setMugEntry(0xE, AjaxMug, 2, 5, 2, 3)
+setMugEntry(0x10, AjaxMug, 2, 5, 2, 3)
 
 AnnaMug: //Natasha
 #incext PortraitFormatter "Anna.png"
-setMugEntry(0xE, AnnaMug, 2, 6, 3, 4)
+setMugEntry(0x11, AnnaMug, 2, 6, 3, 4)
 
 RyderMug: //Joshua
 #incext PortraitFormatter "Ryder.png"
-setMugEntry(0xE, RyderMug, 3, 5, 3, 3)
+setMugEntry(0x2A, RyderMug, 3, 5, 3, 3)
 
 TiradoMug: //Fuck you nat //Neimi
 #incext PortraitFormatter "Tirado.png"

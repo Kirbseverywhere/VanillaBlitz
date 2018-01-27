@@ -1,0 +1,68 @@
+
+Units1:
+UNIT 0x2 0x27 0x0 0x8 [12,6] 0b 0x0 0x0 0x0 [Thunder,Shine,0x6C,0x0] [0x0,0x0,0x0,0x0]
+UNIT 0x1 0x2 0x0 0x8 [13,7] 0b 0x0 0x0 0x0 [Rapier,0x6C,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+label36:
+UNIT 0x68 Cavalier 0x0 Level(3, Enemy, 1) [2,7] 0b 0x0 0x0 0x0 [SteelLance,0x0,0x0,0x0] GuardTileAI
+UNIT 0x82 Knight 0x0 Level(1, Enemy, 1) [6,6] 0b 0x0 0x0 0x0 [IronLance,0x0,0x0,0x0] AttackInRangeAI
+UNIT 0x80 Knight 0x0 Level(1, Enemy, 1) [8,7] 0b 0x0 0x0 0x0 [IronLance,0x0,0x0,0x0] AttackInRangeAI
+UNIT
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+AFEV 0x3 EndingScene 0x2
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+EventPointerTable(0x7,PointerList)
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+Traps1:
+ENDTRAP
+
+ALIGN 4
+Traps2:
+ENDTRAP
+
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Units1
+LOAD1 0x1 label36
+ENDA
+
+EndingScene:
+MNC2 0x1
+ENDA
