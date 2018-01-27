@@ -1,0 +1,75 @@
+#define SetNameDesc(charID, nameTID, descTID) "PUSH; ORG (0x803D30 + charID * 0x34); SHORT nameTID descTID; POP"
+#define SetWeaponRanks(charID, swordRank, lanceRank, axeRank, bowRank, staffRank, animaRank, lightRank, darkRank) "PUSH; ORG (0x803D30 + charID * 0x34) + 0x14; BYTE swordRank lanceRank axeRank bowRank staffRank animaRank lightRank darkRank; POP"
+#define SRank 251
+#define ARank 181
+#define BRank 121
+#define CRank 71
+#define DRank 31
+#define ERank 1
+
+MorpsData:
+#define Morps 0x1
+SetNameDesc(Morps, MorpsName, MorpsDesc)
+
+CirclesData:
+#define Circles 0x2
+SetNameDesc(Circles, CirclesName, CirclesDesc)
+SetWeaponRanks(Circles, 0, 0, 0, 0, DRank, ARank, CRank, 0)
+
+MangsData:
+#define Mangs 0x3
+SetNameDesc(Mangs, MangsName, MangsDesc)
+
+TrevorData:
+#define Trevor 0x4
+SetNameDesc(Trevor, TrevorName, TrevorDesc)
+
+DudeData:
+#define Dude 0x6
+SetNameDesc(Dude, DudeName, DudeDesc)
+
+SilqueData:
+#define Silque 0x5
+SetNameDesc(Silque, SilqueName, SilqueDesc)
+
+DanielData:
+#define Daniel 0x7
+SetNameDesc(Daniel, DanielName, DanielDesc)
+
+MortonData:
+#define Morton 0xA
+SetNameDesc(Morton, MortonName, MortonDesc)
+
+TiradoData:
+#undef Tirado
+#define Tirado 0x8
+SetNameDesc(Tirado, TiradoName, TiradoDesc)
+
+KateData:
+#define Kate 0x9
+SetNameDesc(Kate, KateName, KateDesc)
+
+ChantalData:
+#define Chantal 0x13
+SetNameDesc(Chantal, ChantalName, ChantalDesc)
+
+AjaxData:
+#define Ajax 0xC
+SetNameDesc(Ajax, AjaxName, AjaxDesc)
+
+AnnaData:
+#define Anna 0xD
+SetNameDesc(Anna, AnnaName, AnnaDesc)
+
+RyderData:
+#define Ryder 0x20
+SetNameDesc(Ryder, RyderName, RyderDesc)
+
+GleiprikaData:
+#define Gleiprika 0x1F
+SetNameDesc(Gleiprika, GleiprikaName, GleiprikaDesc)
+
+TyeData:
+#define Tye 0x1E
+SetNameDesc(Tye, TyeName, TyeDesc)
+
