@@ -11,9 +11,6 @@
 
 ORG FreeSpace
 ALIGN 4
-#include "Events\_Master Event Installer.event"
-
-ALIGN 4
 #include "Maps\_Master Map Installer.event"
 
 ALIGN 4
@@ -27,6 +24,10 @@ ALIGN 4
 
 ALIGN 4
 #include "Data\_Master Data Installer.event"
+
+ALIGN 4
+#include "Events\_Master Event Installer.event"
+
 
 #ifdef Debug
 ALIGN 4

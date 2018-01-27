@@ -41,6 +41,7 @@ MortonData:
 SetNameDesc(Morton, MortonName, MortonDesc)
 
 TiradoData:
+#undef Tirado
 #define Tirado 0x8
 SetNameDesc(Tirado, TiradoName, TiradoDesc)
 
