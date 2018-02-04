@@ -1,6 +1,9 @@
 /*
  THE VANILLA BUT NOT 100% VANILLA BLITZ
  Tl;dr: the only things that get changed are enemy placement and maps. number of enemies doesnt change at all.
+ Notes for me:
+ hook at 0x88594 for per chapter stat screen thingy
+ pointer for stat screen graphics at $88638
  */
 #include "EAstdlib.event"
 #include "Extensions\Hack Installation.txt"

@@ -363,6 +363,8 @@ LABEL 0x63
 ENDA
 
 BeginningScene:
+MNC2 0x1D
+/*
 LOAD1 0x1 label45
 ENUN
 REMU 0x53
@@ -439,7 +441,7 @@ CURE
 SVAL 0x2 0x30
 SVAL 0x3 0xB1C
 CALL label50
-EVBIT_T 0x7
+EVBIT_T 0x7*/
 ENDA
 
 EndingScene:

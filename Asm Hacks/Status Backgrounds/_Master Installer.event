@@ -1,0 +1,141 @@
+
+POIN PrologueBackground
+POIN PrologueBackgroundPalette
+
+POIN Chapter1Background
+POIN Chapter1BackgroundPalette
+
+POIN Chapter2Background
+POIN Chapter2BackgroundPalette
+
+POIN Chapter3Background
+POIN Chapter3BackgroundPalette
+
+POIN Chapter4Background
+POIN Chapter4BackgroundPalette
+
+POIN 0
+POIN 0 //5x
+
+POIN Chapter5Background
+POIN Chapter5BackgroundPalette
+
+POIN Chapter6Background
+POIN Chapter6BackgroundPalette
+
+POIN Chapter7Background
+POIN Chapter7BackgroundPalette
+
+POIN Chapter8Background
+POIN Chapter8BackgroundPalette
+
+POIN 0
+POIN 0//Eirika 9
+
+POIN 0
+POIN 0//Eirika 10
+
+POIN 0
+POIN 0//Eirika 12
+
+POIN 0
+POIN 0//Eirika 13
+
+POIN 0
+POIN 0//Eirika 14
+
+POIN 0
+POIN 0//Eirika 15
+
+POIN 0
+POIN 0//Eirika 16
+
+POIN 0
+POIN 0//Eirika 17
+
+POIN 0
+POIN 0//Eirika 18
+
+POIN 0
+POIN 0//Eirika 19
+
+POIN 0
+POIN 0//Eirika 20
+
+POIN 0
+POIN 0//Eirika 21
+
+POIN 0
+POIN 0//Eirika 21x
+
+ALIGN 4
+PrologueBackground:
+#incext Png2Dmp "Prologue.png" --lz77
+
+ALIGN 4
+PrologueBackgroundPalette:
+#incext Png2Dmp "Prologue.png" --palette-only
+
+ALIGN 4
+Chapter1Background:
+#incext Png2Dmp "Ch1.png" --lz77
+
+ALIGN 4
+Chapter1BackgroundPalette:
+#incext Png2Dmp "Ch1.png" --palette-only
+
+ALIGN 4
+Chapter2Background:
+#incext Png2Dmp "Ch2.png" --lz77
+
+ALIGN 4
+Chapter2BackgroundPalette:
+#incext Png2Dmp "Ch2.png" --palette-only
+
+ALIGN 4
+Chapter3Background:
+#incext Png2Dmp "Ch3.png" --lz77
+
+ALIGN 4
+Chapter3BackgroundPalette:
+#incext Png2Dmp "Ch3.png" --palette-only
+
+ALIGN 4
+Chapter4Background:
+#incext Png2Dmp "Ch4.png" --lz77
+
+ALIGN 4
+Chapter4BackgroundPalette:
+#incext Png2Dmp "Ch4.png" --palette-only
+
+ALIGN 4
+Chapter5Background:
+#incext Png2Dmp "Ch5.png" --lz77
+
+ALIGN 4
+Chapter5BackgroundPalette:
+#incext Png2Dmp "Ch5.png" --palette-only
+
+ALIGN 4
+Chapter6Background:
+#incext Png2Dmp "Ch6.png" --lz77
+
+ALIGN 4
+Chapter6BackgroundPalette:
+#incext Png2Dmp "Ch6.png" --palette-only
+
+ALIGN 4
+Chapter7Background:
+#incext Png2Dmp "Ch7.png" --lz77
+
+ALIGN 4
+Chapter7BackgroundPalette:
+#incext Png2Dmp "Ch7.png" --palette-only
+
+ALIGN 4
+Chapter8Background:
+#incext Png2Dmp "Ch8.png" --lz77
+
+ALIGN 4
+Chapter8BackgroundPalette:
+#incext Png2Dmp "Ch8.png" --palette-only

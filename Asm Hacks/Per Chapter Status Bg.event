@@ -1,0 +1,16 @@
+/*PUSH
+ORG 0x88638
+POIN LoadStatusBackground|1
+ORG 0x88596
+BL(0xD18C0)
+SHORT 0 0 0 0 0 0 0
+
+POP
+
+ALIGN 4
+LoadStatusBackground:
+#incbin "ASM\LoadStatusBackground.dmp"
+POIN StatusBackgroundPointerTable
+
+StatusBackgroundPointerTable:
+#include "Status Backgrounds\_Master Installer.event"*/
